@@ -5,7 +5,7 @@ const isCodeSandbox = 'SANDBOX_URL' in process.env || 'CODESANDBOX_HOST' in proc
 export default defineConfig({
     root: 'src/',
     publicDir: '../static/',
-    base: '/ITE/ITE-18-Activity-3.6/',
+    base: '/ITE-18-Activity-3.6/',
     server:
     {
         host: true,
